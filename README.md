@@ -5,6 +5,9 @@ this is how the final page looks
 ![Screenshot 2024-06-27 101323](https://github.com/saiphanidhar2003/portfolio/assets/110330228/1ef612c7-e3db-4c1e-b065-5d6c915f3acf)
 it is a responsive web design the appearance of the page changes with the type of device you are watching.
 this is how it looks in case of small mobile phone.
+
 ![Screenshot 2024-06-27 101656](https://github.com/saiphanidhar2003/portfolio/assets/110330228/ccfda45e-ff7e-4360-8640-3c05e249a5a1)
+
 ![Screenshot 2024-06-27 101713](https://github.com/saiphanidhar2003/portfolio/assets/110330228/31f49abb-bf82-49d0-9f68-dd61001faa90)
+
 ![Screenshot 2024-06-27 101726](https://github.com/saiphanidhar2003/portfolio/assets/110330228/712e40fa-cc6b-4403-896d-d52db93f1b48)
