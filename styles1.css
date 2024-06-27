@@ -1,0 +1,35 @@
+*{
+margin:0;
+padding:0;
+}
+h1{
+text-align:center;
+font-size: 40px;
+}
+div{
+width:30%;
+height: 20px;
+margin-left: auto ;
+margin-right:auto;
+}
+.red{
+background: linear-gradient(red,white,red);
+margin-top:40px;
+box-shadow: 0 0 10px red;
+}
+.green{
+background: linear-gradient(rgb(74,255,6),white,rgb(0,255,0));
+margin-top:10px;
+box-shadow: 0 0 10px rgb(0,255,0);
+}
+.blue{
+background: linear-gradient(blue,white,blue);
+margin-top:10px;
+box-shadow: 0 0 10px  blue;
+}
+.n{
+margin-left: 30%;
+width: 62%;
+background-color: rgba(255,255,255,70%);
+border-left: 10px double black;
+}
