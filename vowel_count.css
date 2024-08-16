@@ -1,0 +1,50 @@
+body{
+background: linear-gradient(90deg,rgb(0,0,0,0.7) ,#d36c76 ,#f181aa);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+}
+.container{
+padding: 20px;
+background-color: rgb(143,126,76);
+border-radius: 10px;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+animation: shadow 3s  infinite ease-in-out alternate;
+gap: 10px;
+}
+@keyFrames shadow{
+from{
+box-shadow: 0 0 12px 5px #d36c76;
+}
+to{
+box-shadow: 0 0 1px  2px rgb(200,155,225);
+}
+}
+
+.text textarea{
+width: 300px;
+height: 300px;
+border-radius: 8px;
+}
+button{
+width: 300px;
+padding-top: 8px;
+padding-bottom: 8px;
+color: white;
+background-color: rgb(120,205,155);
+font-family: sans-serif;
+border: none;
+box-shadow: 0 0 10px rgb(0,0,0,0.1);
+border-radius: 3px;
+font-weight: 700;
+transition: background-color 0.3s ease-in-out;
+}
+button:hover{
+background: #d72a76;
+}

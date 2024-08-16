@@ -1,0 +1,75 @@
+body{
+background: linear-gradient(25deg,#f181aa,#d36c76 50%);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+}
+.container{
+background-color: #eee9e9;
+border-radius:10px;
+box-shadow:0 0 12px rgb(0,0,0,20%);
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+align-items: center;
+}
+h1{
+font-size: 1.5rem;
+}
+.timer{
+background-color: white;
+border-radius: 10px;
+padding: 10px;
+font-size: 2rem;
+box-shadow: 0 0 12px rgb(0,0,0,0.1);
+animation: pulse 1.5s infinite ease-in-out alternate;
+}
+@keyFrames pulse{
+from{
+transform: scale(100%);
+}
+to{
+transform: scale(105%);
+}
+}
+.timer span{
+width: 110px;
+display: inline-block;
+text-align: center;
+}
+button{
+background-color: #f25291;
+color: white;
+border: none;
+padding: 0.74rem 1.5rem;
+font-size: 1rem;
+border-radius: 5px;
+margin-left: 5px;
+transition: background-color 0.1s ease-in-out;
+}
+button:hover{
+background-color: #d72a76;
+}
+.laps{
+width: 100%;
+
+}
+h2{
+font-size: 1.5rem;
+}
+li{
+list-style-type: none;
+padding: 0;
+margin-left: -50px;
+overflow-y: auto;
+background-color: white;
+padding-left: 10px;
+border-radius: 5px;
+border-bottom: 2px solid rgb(0,0,0,0.1); 
+}
+li span{
+font-weight: 700;
+}
