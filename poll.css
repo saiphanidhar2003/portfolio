@@ -1,0 +1,123 @@
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+font-family: sans-serif;
+background-color: #475569;
+}
+.container{
+margin-top: 20px;
+background-color: white;
+border-radius: 10px;
+color: #f181aa;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+animation: slide 0.3s ease-in-out;
+}
+@keyframes slide{
+0%{
+transform: scale(0);
+opacity: 0;
+}
+100%{
+transform: scale(100%);
+opacity: 1;
+}
+}
+.container .h1{
+font-size: 30px;
+font-weight: 700;
+}
+.inside h2{
+font-size:24px;
+}
+.inside{
+display: flex;
+flex-direction:column;
+align-items:center;
+}
+.in{
+display: flex;
+flex-direction:column;
+align-items:center;
+margin-bottom: 10px;
+}
+input[type="radio"]{
+display:none;
+}
+.in label{
+background-color: #feeddc;
+padding: 7px 14px;
+margin-bottom: 10px;
+border-radius: 4px;
+cursor: pointer;
+font-size: 1.2rem;
+color: #361524;
+}
+.in label:hover{
+box-shadow: 1px 1px 3px #d72a76;
+}
+
+button{
+padding: 10px 20px;
+font-size: 1rem;
+cursor: pointer;
+background-color: #f181aa;
+border: none;
+color: white;
+font-weight: 700;
+border-radius: 5px;
+}
+button:hover{
+background-color: #d36c76;
+
+}
+#result{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ff1493;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option-result{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.option-text{
+    width: 60px;
+}
+
+.bar-container{
+    width: 200px;
+    background-color: #ece3e3;
+    height: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.bar{
+    height: 100%;
+    background-color: #ff1493;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+
+}
+
+.percentage{
+    padding-left:30px;
+	flex: 1;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #ff1493;
+}
